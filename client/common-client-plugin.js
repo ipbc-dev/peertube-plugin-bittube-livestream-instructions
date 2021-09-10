@@ -12,7 +12,7 @@ async function register ({ registerHook, peertubeHelpers }) {
       const { markdownRenderer, showModal, translate } = peertubeHelpers
 
       showModal({
-        title: await translate('Upload instructions'),
+        title: await translate('LiveStream instructions'),
         content: await markdownRenderer.enhancedMarkdownToHTML(instructionsBody),
         confirm: {
           value: 'OK'
