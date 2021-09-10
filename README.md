@@ -1,6 +1,6 @@
-# PeerTube plugin Upload Instructions
+# PeerTube plugin LiveStream Instructions
 
-Show an instructions modal right before uploading a file.
+Show an instructions modal right before going live.
 
 ![](https://raw.githubusercontent.com/kimsible/peertube-plugin-upload-instructions/main/screenshots/demo.gif)
 

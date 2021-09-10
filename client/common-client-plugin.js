@@ -25,14 +25,14 @@ async function register ({ registerHook, peertubeHelpers }) {
   registerHook({
     target: 'action:router.navigation-end',
     handler: ({ path }) => {
-      if (path === '/videos/upload') {
+      if (path === '/videos/upload#go-live') {
         showInstructions()
       }
     }
   })
 
   // Run when refresh or manually enter /videos/upload route in browser
-  if (window.location.pathname === '/videos/upload') {
+  if (window.location.pathname === '/videos/upload#go-live') {
     showInstructions()
   }
 }

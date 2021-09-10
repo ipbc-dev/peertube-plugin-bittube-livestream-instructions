@@ -1,15 +1,15 @@
 {
-  "name": "peertube-plugin-upload-instructions",
+  "name": "peertube-plugin-bittube-livestream-instructions",
   "description": "Show an instructions modal right before uploading",
-  "version": "0.1.1",
-  "author": "kimsible",
+  "version": "0.0.1",
+  "author": "bittube",
   "license": "AGPL-3.0",
   "keywords": [
     "peertube",
     "plugin"
   ],
-  "homepage": "https://github.com/kimsible/peertube-plugin-upload-instructions",
-  "bugs": "https://github.com/kimsible/peertube-plugin-upload-instructions/issues",
+  "homepage": "https://github.com/ipbc-dev/peertube-plugin-bittube-livestream-instructions",
+  "bugs": "https://github.com/ipbc-dev/peertube-plugin-bittube-livestream-instructions/issues",
   "engine": {
     "peertube": ">=2.2.0"
   },
