@@ -1,6 +1,6 @@
 {
   "name": "peertube-plugin-bittube-livestream-instructions",
-  "description": "Show an instructions modal right before uploading",
+  "description": "Show an instructions modal right before a livestream",
   "version": "0.0.1",
   "author": "bittube",
   "license": "AGPL-3.0",
